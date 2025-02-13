@@ -23,7 +23,8 @@
         "node": "./dist/vue.runtime.mjs",
         "default": "./dist/vue.runtime.esm.js"
       },
-      "require": "./dist/vue.runtime.common.js"
+      "require": "./dist/vue.runtime.common.js",
+       "require": "./dist/vue.runtime.common.prod.js"
     },
     "./compiler-sfc": {
       "types": "./compiler-sfc/index.d.ts",
@@ -89,7 +90,8 @@
    "dependencies": {
     "@vue/compiler-sfc": "^3.2.0",
     "csstype": "^3.1.0",
-    "@vue/cli-service": "^4.5.0"
+    "@vue/cli-service": "^4.5.0",
+     "@vue/cli-shared-utils": "^5.0.8"
   },
   "devDependencies": {
     "@babel/parser": "^7.23.5",
